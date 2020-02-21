@@ -1,0 +1,370 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.fly {
+  animation: flyCrawl 2s ease infinite;
+  position: absolute;
+  transform: translate(400px, 200px);
+}
+
+@keyframes flyCrawl {
+  0%{
+    transform: transform: translate(-15px, -10px);
+  }
+  50% {
+    transform: translate(100px, 100px);
+  }
+  100% {
+    transform: translate(200px, 50px);
+  }
+}
+
+.centipede {
+  animation: centipedeCrawl 3s ease infinite;
+  position: absolute;
+  transform: translate(100px, 50px);
+}
+
+@keyframes centipedeCrawl {
+  0%{
+    transform: transform: translate(-5px, -20px);
+  }
+  40% {
+    transform: translate(200px, 300px);
+  }
+  80% {
+    transform: translate(100px, 30px);
+  }
+}
+
+.spider {
+  animation: spiderCrawl 5s ease infinite;
+  position: absolute;
+  transform: translate(50px, 10px);
+}
+
+@keyframes spiderCrawl {
+  0%{
+    transform: transform: translate(-3px, -10px);
+  }
+  55% {
+    transform: translate(55px, 350px);
+  }
+  90% {
+    transform: translate(200px, 40px);
+  }
+}
+
+.centipede_2 {
+  animation: centipede_2Crawl 3.5s ease infinite;
+  position: absolute;
+  transform: translate(1000px, 500px);
+}
+
+@keyframes centipede_2Crawl {
+  0%{
+    transform: transform: translate(-1px, -40px);
+  }
+  55% {
+    transform: translate(60px, 400px);
+  }
+  90% {
+    transform: translate(100px, 20px);
+  }
+}
+
+.spider_2 {
+  animation: spider_2Crawl 5s ease infinite;
+  position: absolute;
+  transform: translate(1000px, 300px);
+}
+
+@keyframes spider_2Crawl {
+  0%{
+    transform: transform: translate(-2px, -20px);
+  }
+  55% {
+    transform: translate(45px, 550px);
+  }
+  90% {
+    transform: translate(100px, 50px);
+  }
+}
+
+
+.beetle {
+  animation: beetleCrawl 3s ease infinite;
+  position: absolute;
+  transform: translate(50px, 10px);
+}
+
+@keyframes beetleCrawl {
+  0%{
+    transform: transform: translate(-2px, -20px);
+  }
+  55% {
+    transform: translate(45px, 550px);
+  }
+  90% {
+    transform: translate(100px, 50px);
+  }
+}
+
+.spider_3 {
+  animation: spider_3Crawl 6s ease infinite;
+  position: absolute;
+  transform: translate(2000px, 100px);
+}
+
+@keyframes spider_3Crawl { /* THE POSITIONS BELOW WILL ALLOW BUGS TO COME FROM RIGHT SIDE OF SCREEN */
+  0%{
+    transform: transform: translate(700px, 600px);
+  }
+  55% {
+    transform: translate(605px, 550px);
+  }
+  90% {
+    transform: translate (400px, 345px);
+  }
+}
+
+.spider_4 {
+  animation: spider_4Crawl 5s ease infinite;
+  position: absolute;
+  transform: translate(1000px, 50px);
+}
+
+@keyframes spider_4Crawl {
+  0%{
+    transform: transform: translate(450px, 700px);
+  }
+  55% {
+    transform: translate(705px, 825px);
+  }
+  90% {
+    transform: translate (300px, 545px);
+  }
+}
+
+.roach {
+  animation: roachCrawl 2s ease infinite;
+  position: absolute;
+  transform: translate(700px, 45px);
+}
+
+@keyframes roachCrawl {
+  0%{
+    transform: transform: translate(-40px, -50px);
+  }
+  55% {
+    transform: translate(-2005px, -25px);
+  }
+  90% {
+    transform: translate (2000px, -45px);
+  }
+}
+
+.centipede_3 {
+  animation: centipede_3Crawl 6s ease infinite;
+  position: absolute;
+  transform: translate(700px, 300px);
+}
+
+@keyframes centipede_3Crawl {
+  0%{
+    transform: transform: translate(-1000px, 1500px);
+  }
+  55% {
+    transform: translate(2005px, 2005px);
+  }
+  90% {
+    transform: translate (-2000px, 2000px);
+  }
+}
+
+.roach_2 {
+  animation: roach_2Crawl 1s ease infinite;
+  position: absolute;
+  transform: translate(2000px, 800px);
+}
+
+@keyframes roach_2Crawl {
+  0%{
+    transform: transform: translate(px, 1500px);
+  }
+  55% {
+    transform: translate(105px, 405px);
+  }
+  90% {
+    transform: translate (100px, 800px);
+  }
+}
+
+.bug {
+  animation: bugCrawl 4s ease infinite;
+  position: absolute;
+  transform: translate(3000px, 100px);
+}
+
+@keyframes bugCrawl {
+  0%{
+    transform: transform: translate(px, 500px);
+  }
+  55% {
+    transform: translate(605px, 705px);
+  }
+  90% {
+    transform: translate (1000px, 2000px);
+  }
+}
+
+.bug_2 {
+  animation: bug_2Crawl 3s ease infinite;
+  position: absolute;
+  transform: translate(2000px, 10px);
+}
+
+@keyframes bug_2Crawl {
+  0%{
+    transform: transform: translate(700px, 600px);
+  }
+  55% {
+    transform: translate(705px, 550px);
+  }
+  90% {
+    transform: translate (600px, 345px);
+  }
+}
+
+.spider_5 {
+  animation: spider_5Crawl 3s ease infinite;
+  position: absolute;
+  transform: translate(2000px, 900px);
+}
+
+@keyframes spider_5Crawl {
+  0%{
+    transform: transform: translate(1500px, 1000px);
+  }
+  55% {
+    transform: translate(-100px, -100px);
+  }
+  90% {
+    transform: translate (-100px, -50px);
+  }
+}
+
+.spider_6 {
+  animation: spider_6Crawl 2s ease infinite;
+  position: absolute;
+  transform: translate(3000px, 600px);
+}
+
+@keyframes spider_6Crawl {
+  0%{
+    transform: transform: translate(-150px, -100px);
+  }
+  50% {
+    transform: translate(700px, 600px);
+  }
+  100% {
+    transform: translate(200px, 50px);
+  }
+}
+
+.bee {
+  animation: beeCrawl 3s ease infinite;
+  position: absolute;
+  transform: translate(1000px, 50px);
+}
+
+@keyframes beeCrawl {
+  0%{
+    transform: transform: translate(350px, 600px);
+  }
+  55% {
+    transform: translate(705px, 825px);
+  }
+  90% {
+    transform: translate (300px, 45px);
+  }
+}
+
+.bug_3 {
+  animation: bug_3Crawl 3s ease infinite;
+  position: absolute;
+  transform: translate(1400px, 45px);
+}
+
+@keyframes bug_3Crawl {
+  0%{
+    transform: transform: translate(450px, 500px);
+  }
+  55% {
+    transform: translate(605px, 725px);
+  }
+  90% {
+    transform: translate (400px, 5px);
+  }
+}
+
+.bee_2 {
+  animation: bee_2Crawl 5s ease infinite;
+  position: absolute;
+  transform: translate(1000px, 600px);
+}
+
+@keyframes bee_2Crawl {
+  0%{
+    transform: transform: translate(100px, 170px);
+  }
+  55% {
+    transform: translate(605px, 825px);
+  }
+  90% {
+    transform: translate (60px, 10px);
+  }
+}
+
+.bee_3 {
+  animation: bee_3Crawl 4s ease infinite;
+  position: absolute;
+  transform: translate(1500px, 100px);
+}
+
+@keyframes bee_3Crawl {
+  0%{
+    transform: transform: translate(50px, 70px);
+  }
+  55% {
+    transform: translate(500px, 800px);
+  }
+  90% {
+    transform: translate (95px, 5px);
+  }
+}
+
+.spider_7 {
+  animation: spider_7Crawl 6s ease infinite;
+  position: absolute;
+  transform: translate(1000px, 40px);
+}
+
+@keyframes spider_7Crawl {
+  0%{
+    transform: transform: translate(50px, 200px);
+  }
+  55% {
+    transform: translate(800px, 500px);
+  }
+  90% {
+    transform: translate (30px, 500px);
+  }
+}
